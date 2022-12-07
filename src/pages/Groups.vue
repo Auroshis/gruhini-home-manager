@@ -6,7 +6,7 @@
              <div class="text-h6">Family</div>
              <div class="text-subtitle2">by User</div>
            </div>
- 
+
            <div class="col-auto">
              <q-btn color="grey-7" round flat icon="more_vert">
                <q-menu cover auto-close>
@@ -26,23 +26,23 @@
            </div>
          </div>
        </q-card-section>
- 
+
        <q-card-section>
          {{ group_desc }}
        </q-card-section>
- 
+
        <q-separator />
- 
+
        <q-card-actions>
          <q-btn clickable to="/users" flat icon="people"/>
-         <q-btn clickable to="/item" flat icon="checklist"/>
+         <q-btn clickable to="/tab" flat icon="checklist"/>
        </q-card-actions>
      </q-card>
  </template>
- 
+
  <script>
  import { defineComponent } from 'vue'
- 
+
  export default defineComponent({
    name: 'group_card',
    data() {
@@ -50,14 +50,13 @@
        group_desc:'Group Description'
    }
      }
-     
+
  })
  </script>
- 
+
  <!-- <style scoped>
  /* .group_card{
    height: 800px;
    width: 1000px;
  } */
  </style> -->
- 
