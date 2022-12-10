@@ -2,6 +2,7 @@
 FROM node:lts-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
+RUN npm install -g npm@9.2.0
 RUN npm install -g @quasar/cli
 COPY . .
 RUN quasar build
