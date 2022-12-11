@@ -1,0 +1,1 @@
+"use strict";(globalThis["webpackChunkgruhini"]=globalThis["webpackChunkgruhini"]||[]).push([[943],{5143:(r,n,u)=>{u.r(n),u.d(n,{default:()=>l});var s=u(9835);function a(r,n,u,a,e,i){return(0,s.wg)(),(0,s.iD)("h1",null,"user list")}const e=(0,s.aZ)({name:"users_card"});var i=u(1639);const h=(0,i.Z)(e,[["render",a]]),l=h}}]);
