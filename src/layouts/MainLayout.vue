@@ -16,7 +16,6 @@
           Your home inventory manager
         </div>
         <q-img class="header-image absolute-top"
-        src="https://cdn.pixabay.com/photo/2022/06/25/08/43/space-7283103_1280.jpg"
         :ratio="16/9"
         />
     </q-header>
@@ -52,7 +51,7 @@
           </q-list>
         </q-scroll-area>
 
-        <q-img class="absolute-top drawer_img" src="https://cdn.pixabay.com/photo/2022/06/25/08/43/space-7283103_1280.jpg">
+        <q-img class="absolute-top drawer_img">
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="56px" class="q-mb-sm">
               <img src="https://cdn.quasar.dev/img/boy-avatar.png">
@@ -96,9 +95,11 @@ export default defineComponent({
   height: 100%;
   z-index: -1;
   opacity: 0.4;
+  background-image: url("src/img/header_img.jpg");
 }
 .drawer_img{
   height: 152.59px;
   opacity: 1;
+  background-image: url("src/img/header_img.jpg");
 }
 </style>
