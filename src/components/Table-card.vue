@@ -111,7 +111,7 @@ const row_data = [
   }
 ]
 export default {
-  name: 'table_component',
+  name: 'item-card',
   data () {
     return { rows:row_data }
   }

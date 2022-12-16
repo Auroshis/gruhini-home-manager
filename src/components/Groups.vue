@@ -3,8 +3,8 @@
        <q-card-section>
          <div class="row items-center no-wrap">
            <div class="col">
-             <div class="text-h6">Family</div>
-             <div class="text-subtitle2">by User</div>
+             <div class="text-h6">Group Name</div>
+             <div class="text-subtitle2">created by User</div>
            </div>
 
            <div class="col-auto">
@@ -44,7 +44,7 @@
  import { defineComponent } from 'vue'
 
  export default defineComponent({
-   name: 'group_card',
+   name: 'group-card',
    data() {
      return {
        group_desc:'Group Description'

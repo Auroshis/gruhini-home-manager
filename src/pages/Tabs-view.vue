@@ -8,20 +8,20 @@
         <q-tab alert="red" name="alarms" icon="flash_on" label="Use Fast" />
         <q-tab alert="orange" name="movies" icon="shopping_bag" label="Buy Again" />
     </q-tabs>
-    <table_component/>
+    <!-- <table_component/> -->
   </div>
 
  </template>
 
  <script>
  import { defineComponent } from 'vue'
- import table_component from 'src/components/Table-card.vue'
+//  import table_component from 'src/components/Table-card.vue'
 
  export default defineComponent({
    name: 'tabs-component',
-   components: {
-    table_component
-   }
+  //  components: {
+  //   table_component
+  //  }
 //    data() {
 //      return {
 //        group_desc:'Group Description'

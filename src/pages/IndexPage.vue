@@ -1,32 +1,43 @@
 <template>
-  <div bordered class="q-pa-md">
-    <group_card/>
+  <div bordered class="q-pa-md main-content" v-if="content_toggle === true">
+    <h6>groups</h6>
+    <button @click="getItems()">go to items</button>
+    <!-- <group_card/> -->
   </div>
-  
+  <div bordered class="q-pa-md main-content" v-if="content_toggle === false">
+    <h6>items</h6>
+    <button @click="content_toggle = true">go back to groups</button>
+    <!-- <group_card/> -->
+  </div>
+
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-import group_card from './Groups.vue'
+// import group_card from 'src/components/Groups.vue'
 // import item_card from './Items.vue'
 
-export default defineComponent({
+export default {
   name: 'IndexPage',
-  components: {
-    group_card
+  data() {
+    return {
+      content_toggle: true
+    }
   },
-  // data() {
-  //   return {
-  //     group_desc:'Group Description'
-  // }
-  //   }
-    
-})
+  methods: {
+  getItems() {
+    this.content_toggle = false;
+  }
+  }
+}
 </script>
 
 <style scoped>
 .group_card{
   height: 150px;
+  width: 600px;
+}
+.main-content{
+  height: 900px;
   width: 600px;
 }
 </style>
