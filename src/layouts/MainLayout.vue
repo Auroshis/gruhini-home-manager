@@ -15,9 +15,7 @@
         <div class="q-px-lg text-weight-light">
           Your home inventory manager
         </div>
-        <q-img class="header-image absolute-top"
-        :ratio="16/9"
-        />
+        <q-img class="header-image absolute-top"/>
     </q-header>
 
     <q-drawer
@@ -71,11 +69,6 @@ import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
   name: 'MainLayout',
-
-  // components: {
-  //   EssentialLink
-  // },
-
   setup () {
     const leftDrawerOpen = ref(false)
 
