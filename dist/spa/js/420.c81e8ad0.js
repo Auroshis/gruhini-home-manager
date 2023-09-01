@@ -1,1 +1,0 @@
-"use strict";(globalThis["webpackChunkgruhini"]=globalThis["webpackChunkgruhini"]||[]).push([[420],{9420:(n,e,u)=>{u.r(e),u.d(e,{default:()=>a});var r=u(9835);function h(n,e,u,h,i,l){return(0,r.wg)(),(0,r.iD)("h1",null,"Help document")}const i={name:"help_document"};var l=u(1639);const t=(0,l.Z)(i,[["render",h]]),a=t}}]);
